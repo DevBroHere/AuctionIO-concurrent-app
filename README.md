@@ -11,3 +11,6 @@ t - time that client spend in queue
 v - volume of the file client want to upload
 Based on the coefficient, clients are selected that can send a file to the host at the same
 time it must be the smallest file in the file pack.
+
+
+Author: Cezary Bujak
