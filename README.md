@@ -3,9 +3,7 @@ AuctionIO is a program that simulates a client-host relationship.
 Hosts are working concurrently to each other and to the main root of the app.
 The selection of a client that can send its file to a free host is controlled by an equation:
 
-coefficient = (1/c)*t + log_{1/2}(v/c)
-
-![\Large coefficient=\frac{t}{c} + \log_{\frac{1}{2}}3](https://latex.codecogs.com/svg.latex?\Large&space;coefficient=\frac{t}{c} + \log_{\frac{1}{2}}3) 
+![\Large coefficient=\frac{t}{c}+\log_{\frac{1}{2}}\frac{v}{c}](https://latex.codecogs.com/svg.latex?\Large&space;coefficient=\frac{t}{c}+\log_{\frac{1}{2}}\frac{v}{c})
 
 Where:
 c - number of clients in queue
